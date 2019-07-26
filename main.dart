@@ -1,4 +1,6 @@
 import 'class/blogpost.dart';
+import 'function/function_a.dart';
+
 
 void main() {
   print("Hello world");
@@ -9,8 +11,3 @@ void main() {
     print(blog1.blogBody('How Dollphin Swim', "It's very easy for dollphin to swim"));
   }
 }
-
-// Function Example
-
-int myCustomFunction(int first, int second) => first+second;
-
