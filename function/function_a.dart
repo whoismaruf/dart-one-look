@@ -1,7 +1,8 @@
-
+// Optional parameter
 //Function With Named Parameter
-int myNamedParamFunction(int height){
-  
+int myNamedParamFunction([int price, int offer]){
+  int final_price = price - offer;
+  return final_price;
 }
 
 // Function With Fat Arrow
